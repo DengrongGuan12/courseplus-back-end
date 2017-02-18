@@ -1,0 +1,20 @@
+package: gogs.mebox.wiki/course-plus/courseplus-back-end
+import:
+- package: github.com/astaxie/beego
+  version: ^1.7.2
+- package: github.com/go-sql-driver/mysql
+  version: ^1.3.0
+- package: github.com/pingplusplus/pingpp-go
+  version: 3.1.0
+  subpackages:
+  - pingpp
+- package: qiniupkg.com/api.v7
+  version: ^7.0.5
+- package: github.com/goinggo/mapstructure
+- package: github.com/dgrijalva/jwt-go
+  version: v3.0.0
+testImport:
+- package: github.com/smartystreets/goconvey
+  version: ^1.6.2
+  subpackages:
+  - convey
